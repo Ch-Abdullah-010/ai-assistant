@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "Assistant IA",
+    "shortName": "Chat IA"
+  },
+  "chat": {
+    "newChat": "Nouveau Chat",
+    "sendMessage": "Envoyer un message...",
+    "startConversation": "Démarrer une conversation",
+    "stopGenerating": "Arrêter la génération",
+    "placeholders": {
+      "imageGen": "Décrivez l'image que vous souhaitez générer..."
+    },
+    "empty": {
+      "title": "Assistant IA",
+      "description": "Créez un nouveau chat ou sélectionnez-en un existant pour commencer.",
+      "descriptionActive": "Envoyez un message pour commencer à discuter avec l'assistant IA."
+    },
+    "actions": {
+      "copy": "Copier le message",
+      "speak": "Lire à haute voix",
+      "stopSpeak": "Arrêter la lecture",
+      "pin": "Épingler",
+      "unpin": "Détacher",
+      "rename": "Renommer",
+      "delete": "Supprimer",
+      "export": "Exporter le chat",
+      "uploadFile": "Télécharger un fichier",
+      "voiceInput": "Saisie vocale",
+      "stopRecording": "Arrêter l'enregistrement"
+    }
+  },
+  "search": {
+    "placeholder": "Rechercher des chats...",
+    "results": "Résultats",
+    "webEnabled": "Recherche Web activée",
+    "webDisabled": "Activer la recherche Web"
+  },
+  "imageGen": {
+    "enabled": "Génération d'images activée",
+    "disabled": "Activer la génération d'images"
+  },
+  "sidebar": {
+    "pinned": "Épinglés",
+    "recent": "Récents",
+    "noChats": "Aucun chat. Commencez une nouvelle conversation !",
+    "noResults": "Aucun chat trouvé"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "backToChat": "Retour au Chat",
+    "profile": "Profil",
+    "email": "E-mail",
+    "memberSince": "Membre depuis",
+    "appearance": "Apparence",
+    "theme": "Thème",
+    "themeDesc": "Passer du mode clair au mode sombre",
+    "fontSize": "Taille de police",
+    "fontSizeDesc": "Ajuster la taille du texte",
+    "language": "Langue",
+    "languageDesc": "Choisissez votre langue préférée",
+    "voice": "Voix",
+    "aiVoice": "Voix IA",
+    "aiVoiceDesc": "Écouter les réponses de l'IA à haute voix",
+    "customInstructions": "Instructions personnalisées",
+    "customInstructionsDesc": "Ces instructions sont envoyées à l'IA avec chaque message dans tous les chats.",
+    "customInstructionsPlaceholder": "Ex: Vous êtes un assistant utile qui parle comme un pirate...",
+    "saveInstructions": "Enregistrer",
+    "saved": "Enregistré !",
+    "dangerZone": "Zone dangereuse",
+    "signOut": "Déconnexion"
+  },
+  "admin": {
+    "title": "Panneau d'Administration",
+    "backToChat": "Retour au Chat",
+    "accessDenied": "Accès Refusé",
+    "accessDeniedDesc": "Privilèges d'administrateur requis.",
+    "totalUsers": "Utilisateurs Totaux",
+    "totalChats": "Chats Totaux",
+    "totalMessages": "Messages Totaux",
+    "totalFiles": "Fichiers Totaux",
+    "users": "Utilisateurs",
+    "search": "Rechercher par e-mail ou nom...",
+    "searchBtn": "Rechercher",
+    "email": "E-mail",
+    "name": "Nom",
+    "role": "Rôle",
+    "theme": "Thème",
+    "joined": "Inscrit",
+    "actions": "Actions",
+    "delete": "Supprimer",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "page": "Page"
+  },
+  "voice": {
+    "mute": "Couper la voix IA",
+    "unmute": "Activer la voix IA"
+  },
+  "export": {
+    "markdown": "Markdown",
+    "json": "JSON",
+    "txt": "Texte brut"
+  },
+  "auth": {
+    "signIn": "Connexion",
+    "signUp": "Inscription",
+    "signOut": "Déconnexion",
+    "email": "E-mail",
+    "password": "Mot de passe",
+    "forgotPassword": "Mot de passe oublié ?",
+    "resetPassword": "Réinitialiser le mot de passe",
+    "noAccount": "Pas de compte ?",
+    "hasAccount": "Déjà un compte ?"
+  }
+}

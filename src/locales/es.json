@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "Asistente IA",
+    "shortName": "Chat IA"
+  },
+  "chat": {
+    "newChat": "Nuevo Chat",
+    "sendMessage": "Enviar mensaje...",
+    "startConversation": "Inicia una conversación",
+    "stopGenerating": "Detener generación",
+    "placeholders": {
+      "imageGen": "Describe la imagen que quieres generar..."
+    },
+    "empty": {
+      "title": "Asistente IA",
+      "description": "Crea un nuevo chat o selecciona uno existente para comenzar.",
+      "descriptionActive": "Envía un mensaje para comenzar a chatear con el asistente IA."
+    },
+    "actions": {
+      "copy": "Copiar mensaje",
+      "speak": "Leer en voz alta",
+      "stopSpeak": "Detener lectura",
+      "pin": "Fijar",
+      "unpin": "Desfijar",
+      "rename": "Renombrar",
+      "delete": "Eliminar",
+      "export": "Exportar chat",
+      "uploadFile": "Subir archivo",
+      "voiceInput": "Entrada de voz",
+      "stopRecording": "Detener grabación"
+    }
+  },
+  "search": {
+    "placeholder": "Buscar chats...",
+    "results": "Resultados",
+    "webEnabled": "Búsqueda web activada",
+    "webDisabled": "Activar búsqueda web"
+  },
+  "imageGen": {
+    "enabled": "Generación de imágenes activada",
+    "disabled": "Activar generación de imágenes"
+  },
+  "sidebar": {
+    "pinned": "Fijados",
+    "recent": "Recientes",
+    "noChats": "No hay chats. ¡Inicia una nueva conversación!",
+    "noResults": "No se encontraron chats"
+  },
+  "settings": {
+    "title": "Ajustes",
+    "backToChat": "Volver al Chat",
+    "profile": "Perfil",
+    "email": "Correo",
+    "memberSince": "Miembro desde",
+    "appearance": "Apariencia",
+    "theme": "Tema",
+    "themeDesc": "Cambiar entre modo claro y oscuro",
+    "fontSize": "Tamaño de fuente",
+    "fontSizeDesc": "Ajustar el tamaño del texto",
+    "language": "Idioma",
+    "languageDesc": "Elige tu idioma preferido",
+    "voice": "Voz",
+    "aiVoice": "Voz IA",
+    "aiVoiceDesc": "Escuchar las respuestas de la IA en voz alta",
+    "customInstructions": "Instrucciones personalizadas",
+    "customInstructionsDesc": "Estas instrucciones se envían a la IA con cada mensaje en todos los chats.",
+    "customInstructionsPlaceholder": "Ej: Eres un asistente útil que habla como un pirata...",
+    "saveInstructions": "Guardar instrucciones",
+    "saved": "¡Guardado!",
+    "dangerZone": "Zona de peligro",
+    "signOut": "Cerrar sesión"
+  },
+  "admin": {
+    "title": "Panel de Administración",
+    "backToChat": "Volver al Chat",
+    "accessDenied": "Acceso Denegado",
+    "accessDeniedDesc": "Se requieren privilegios de administrador.",
+    "totalUsers": "Usuarios Totales",
+    "totalChats": "Chats Totales",
+    "totalMessages": "Mensajes Totales",
+    "totalFiles": "Archivos Totales",
+    "users": "Usuarios",
+    "search": "Buscar por correo o nombre...",
+    "searchBtn": "Buscar",
+    "email": "Correo",
+    "name": "Nombre",
+    "role": "Rol",
+    "theme": "Tema",
+    "joined": "Registrado",
+    "actions": "Acciones",
+    "delete": "Eliminar",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "page": "Página"
+  },
+  "voice": {
+    "mute": "Silenciar voz IA",
+    "unmute": "Activar voz IA"
+  },
+  "export": {
+    "markdown": "Markdown",
+    "json": "JSON",
+    "txt": "Texto plano"
+  },
+  "auth": {
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "signOut": "Cerrar sesión",
+    "email": "Correo",
+    "password": "Contraseña",
+    "forgotPassword": "¿Olvidaste tu contraseña?",
+    "resetPassword": "Restablecer contraseña",
+    "noAccount": "¿No tienes una cuenta?",
+    "hasAccount": "¿Ya tienes una cuenta?"
+  }
+}

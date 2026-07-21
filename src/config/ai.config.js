@@ -1,36 +1,32 @@
-import { config } from './index.js';
-
 const aiConfig = {
-  get activeProvider() {
-    return config.ai.provider;
-  },
+  provider: import.meta.env.VITE_AI_PROVIDER || 'gemini',
 
   providers: {
     gemini: {
       name: 'Google Gemini',
-      apiKey: config.ai.gemini.apiKey,
+      apiKey: import.meta.env.VITE_GEMINI_API_KEY,
       baseUrl: 'https://generativelanguage.googleapis.com/v1beta',
-      model: config.ai.gemini.model,
+      model: 'gemini-2.0-flash',
       endpoint: '/models/gemini-2.0-flash:generateContent',
     },
     deepseek: {
       name: 'DeepSeek',
-      apiKey: config.ai.deepseek.apiKey,
+      apiKey: import.meta.env.VITE_DEEPSEEK_API_KEY,
       baseUrl: 'https://api.deepseek.com/v1',
-      model: config.ai.deepseek.model,
+      model: 'deepseek-chat',
       endpoint: '/chat/completions',
     },
     openrouter: {
       name: 'OpenRouter',
-      apiKey: config.ai.openrouter.apiKey,
+      apiKey: import.meta.env.VITE_OPENROUTER_API_KEY,
       baseUrl: 'https://openrouter.ai/api/v1',
-      model: config.ai.openrouter.model,
+      model: 'openai/gpt-3.5-turbo',
       endpoint: '/chat/completions',
     },
   },
 
-  get activeProviderConfig() {
-    return this.providers[this.activeProvider] || this.providers.gemini;
+  get activeProvider() {
+    return this.providers[this.provider] || this.providers.gemini;
   },
 };
 

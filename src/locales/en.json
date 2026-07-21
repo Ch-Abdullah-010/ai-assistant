@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "AI Assistant",
+    "shortName": "AI Chat"
+  },
+  "chat": {
+    "newChat": "New Chat",
+    "sendMessage": "Send a message...",
+    "startConversation": "Start a conversation",
+    "stopGenerating": "Stop generating",
+    "placeholders": {
+      "imageGen": "Describe the image you want to generate..."
+    },
+    "empty": {
+      "title": "AI Assistant",
+      "description": "Create a new chat or select an existing one to get started.",
+      "descriptionActive": "Send a message to begin chatting with the AI assistant."
+    },
+    "actions": {
+      "copy": "Copy message",
+      "speak": "Read aloud",
+      "stopSpeak": "Stop speaking",
+      "pin": "Pin",
+      "unpin": "Unpin",
+      "rename": "Rename",
+      "delete": "Delete",
+      "export": "Export chat",
+      "uploadFile": "Upload file",
+      "voiceInput": "Voice input",
+      "stopRecording": "Stop recording"
+    }
+  },
+  "search": {
+    "placeholder": "Search chats...",
+    "results": "Results",
+    "webEnabled": "Web search enabled",
+    "webDisabled": "Enable web search"
+  },
+  "imageGen": {
+    "enabled": "Image generation enabled",
+    "disabled": "Enable image generation"
+  },
+  "sidebar": {
+    "pinned": "Pinned",
+    "recent": "Recent",
+    "noChats": "No chats yet. Start a new conversation!",
+    "noResults": "No chats found"
+  },
+  "settings": {
+    "title": "Settings",
+    "backToChat": "Back to Chat",
+    "profile": "Profile",
+    "email": "Email",
+    "memberSince": "Member since",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "themeDesc": "Switch between light and dark mode",
+    "fontSize": "Font Size",
+    "fontSizeDesc": "Adjust text size",
+    "language": "Language",
+    "languageDesc": "Choose your preferred language",
+    "voice": "Voice",
+    "aiVoice": "AI Voice",
+    "aiVoiceDesc": "Hear AI responses read aloud",
+    "customInstructions": "Custom Instructions",
+    "customInstructionsDesc": "These instructions are sent to the AI with every message across all chats.",
+    "customInstructionsPlaceholder": "e.g. You are a helpful assistant that speaks like a pirate...",
+    "saveInstructions": "Save Instructions",
+    "saved": "Saved!",
+    "dangerZone": "Danger Zone",
+    "signOut": "Sign Out"
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "backToChat": "Back to Chat",
+    "accessDenied": "Access Denied",
+    "accessDeniedDesc": "Admin privileges required.",
+    "totalUsers": "Total Users",
+    "totalChats": "Total Chats",
+    "totalMessages": "Total Messages",
+    "totalFiles": "Total Files",
+    "users": "Users",
+    "search": "Search by email or name...",
+    "searchBtn": "Search",
+    "email": "Email",
+    "name": "Name",
+    "role": "Role",
+    "theme": "Theme",
+    "joined": "Joined",
+    "actions": "Actions",
+    "delete": "Delete",
+    "previous": "Previous",
+    "next": "Next",
+    "page": "Page"
+  },
+  "voice": {
+    "mute": "Mute AI voice",
+    "unmute": "Unmute AI voice"
+  },
+  "export": {
+    "markdown": "Markdown",
+    "json": "JSON",
+    "txt": "Plain Text"
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "signOut": "Sign Out",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "resetPassword": "Reset Password",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  }
+}
